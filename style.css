@@ -1,0 +1,113 @@
+body {
+  font-family: font-awesome;
+  /*background-color: #80b3ff;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0f/Rainforest_Regenwald_Australia_%2822865104000%29.jpg)
+  background-size: cover;
+  background-size: cover;*/
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/0f/Rainforest_Regenwald_Australia_%2822865104000%29.jpg) no-repeat center center fixed; 
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
+
+}
+
+.container1 {
+  background-color: #ff9;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  border: solid #003380 5px;
+  border-radius: 20px;
+  font-family: Cinzel Decorative, Times;
+  font-size: 20px;
+}
+  
+ h1 {
+   margin: 5px;
+   //border: 3px solid red;
+   text-align: center;
+  }
+
+#buddha-container {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 10em;
+  /*border: 3px solid red;*/
+  height: 50em;
+  width: auto;
+  background-image: url("http://res.cloudinary.com/markm/image/upload/v1501628491/luckyBuddha_txfvi9.png"); 
+  background-size: 80% 55em;
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+
+.btn {
+  background: #fff;
+  color: black;
+  font-size: 1.5em;
+  width: 7em;
+  height: 4em;
+  display: block;
+  margin: 9em auto 1em 44%;
+  border-radius: 60%;
+  border-color: rgba(0,0,0, 0.0);
+}
+
+
+/*
+.btn:focus{  
+  color: #95A5A6;
+  border-color: rgba(0,0,0, 0.0);
+  outline: rgba(0,0,0, 0.0);
+}
+*/
+
+/*
+.container div {
+  text-align: center;
+  vertical-align: sub;
+}
+*/
+#rub {
+  margin-top: 1em;
+  margin-right: 5em;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;  
+  /*border: 3px solid red;*/
+}
+/*
+#goodLuck {
+  margin-top: 5em;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+}
+*/
+#quoteBox {
+  margin: 3em 20em 0 auto;
+  height: 30em;
+  width: 30em;
+  /*font-size: 1em;*/
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  /*border: 3px solid red;*/
+}
+
+#quoteContainer {
+  /*margin-top: 5em;*/
+  color: #000;
+  height: 20em;
+  padding: 20%;
+  font-size: 2em;
+  text-align: center;  
+  /*border: 3px solid red;*/
+}
+
+.author {
+  font-style: italic;
+}
+
+
