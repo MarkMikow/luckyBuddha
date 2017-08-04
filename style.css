@@ -1,15 +1,11 @@
 body {
   font-family: font-awesome;
-  /*background-color: #80b3ff;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0f/Rainforest_Regenwald_Australia_%2822865104000%29.jpg)
-  background-size: cover;
-  background-size: cover;*/
-  background: url(https://upload.wikimedia.org/wikipedia/commons/0/0f/Rainforest_Regenwald_Australia_%2822865104000%29.jpg) no-repeat center center fixed; 
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/0f/Rainforest_Regenwald_Australia_%2822865104000%29.jpg) no-repeat center; 
   -webkit-background-size: auto;
   -moz-background-size: auto;
   -o-background-size: auto;
   background-size: auto;
-
+  padding-bottom: 5em;
 }
 
 .container1 {
@@ -54,21 +50,6 @@ body {
   border-color: rgba(0,0,0, 0.0);
 }
 
-
-/*
-.btn:focus{  
-  color: #95A5A6;
-  border-color: rgba(0,0,0, 0.0);
-  outline: rgba(0,0,0, 0.0);
-}
-*/
-
-/*
-.container div {
-  text-align: center;
-  vertical-align: sub;
-}
-*/
 #rub {
   margin-top: 1em;
   margin-right: 5em;
@@ -77,14 +58,7 @@ body {
   text-align: center;  
   /*border: 3px solid red;*/
 }
-/*
-#goodLuck {
-  margin-top: 5em;
-  color: #fff;
-  font-size: 3em;
-  text-align: center;
-}
-*/
+
 #quoteBox {
   margin: 3em 20em 0 auto;
   height: 30em;

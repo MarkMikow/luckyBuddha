@@ -1,5 +1,8 @@
 $(document).ready(function() {
-
+    var randomNumber; 
+    var randomQuote; 
+    var randomAuthor;
+    getQuote();
   function getQuote() {
     var quotes = [
     "What we think, we become.",
@@ -33,7 +36,8 @@ $(document).ready(function() {
     "You must personally accept the responsibility of improving your own life.",
     "This is bravery: using the challenge of daily life to sharpen our mind and open our heart.",
     "Movement is good for the body. Stillness is good for the mind.",
-    "We humans have come to a crossroads in our history: we can either destroy the world or create a good future."
+    "We humans have come to a crossroads in our history: we can either destroy the world or create a good future.",
+    "The ultimate authority must always rest with the individual’s own reason and critical analysis."
     ]
 
     var authors = [
@@ -68,19 +72,27 @@ $(document).ready(function() {
     " ~Chogyam Trungpa",
     " ~Sakyong Mipham",
     " ~Sakyong Mipham",
-    " ~Sakyong Mipham"
+    " ~Sakyong Mipham",
+    " ~Dalai Lama"
     ]
 
-    var randomNumber = Math.floor(Math.random() * (quotes.length));
-    var randomQuote = quotes[randomNumber];
-    var randomAuthor = authors[randomNumber];
+    randomNumber = Math.floor(Math.random() * (quotes.length));
+    randomQuote = quotes[randomNumber];
+    randomAuthor = authors[randomNumber];
 
     $(".quote").text(randomQuote);
     $(".author").text(randomAuthor);
-    }
+}
 
-    $(".btn").on("click", function() {
+    $("#tweet").on("click", function() {
+        window.open("https://twitter.com/intent/tweet?text=" + randomQuote + randomAuthor);
+    });
+
+    $("#newQuote").on("click", function() {
       getQuote();
     });
-  });
+
+});
+
+
 
