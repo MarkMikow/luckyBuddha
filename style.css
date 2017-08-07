@@ -10,20 +10,26 @@ body {
 
 .container1 {
   background-color: #ff9;
-  width: 500px;
+  width: 600px;
   margin: auto;
   margin-top: 20px;
   border: solid #003380 5px;
   border-radius: 20px;
   font-family: Cinzel Decorative, Times;
-  font-size: 20px;
 }
   
  h1 {
    margin: 5px;
-   //border: 3px solid red;
+   font-size: 3em;
    text-align: center;
   }
+
+  #rub {
+  color: #fff;
+  font-size: 4em;
+  text-align: center;  
+  /*border: 3px solid red;*/
+}
 
 #buddha-container {
   margin-top: 40px;
@@ -48,15 +54,6 @@ body {
   margin: 9em auto 1em 44%;
   border-radius: 60%;
   border-color: rgba(0,0,0, 0.0);
-}
-
-#rub {
-  margin-top: 1em;
-  margin-right: 5em;
-  color: #fff;
-  font-size: 3em;
-  text-align: center;  
-  /*border: 3px solid red;*/
 }
 
 #quoteBox {
